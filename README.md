@@ -1,8 +1,8 @@
 # 🛡️ GlexGC | Skids Toolkit
 
 <p align="center">
-  <b>Ein All-in-One GUI-basiertes Pentesting- und Cybersecurity-Utility-Tool.</b><br>
-  <i>Entwickelt für Einsteiger, Studenten und Security-Enthusiasten.</i>
+  <b>An all-in-one GUI-based penetration testing and cybersecurity utility tool.</b><br>
+  <i>Designed for beginners, students, and security enthusiasts.</i>
 </p>
 
 <p align="center">
@@ -14,74 +14,74 @@
 
 ---
 
-## 📖 Über das Projekt
+## 📖 About the Project
 
-**GlexGC** (auch bekannt als *Skids Toolkit*) ist ein umfassendes Dashboard, das essentielle Netzwerk-, Kryptographie- und Web-Security-Tools in einer modernen Benutzeroberfläche bündelt. Es wurde entwickelt, um komplexe Terminal-Befehle für Einsteiger (in der Szene oft "Skids" genannt) visuell und einfach zugänglich zu machen, ohne dass tiefgreifende Programmierkenntnisse für die Bedienung nötig sind.
+**GlexGC** (also known as *Skids Toolkit*) is a comprehensive dashboard that bundles essential network, cryptography, and web security tools into a modern user interface. It was designed to make complex terminal commands visually and easily accessible for beginners (often referred to as "skids" in the scene) without requiring deep programming knowledge to operate the tools.
 
 > [!TIP]
-> **Kompatibilität:** Das Tool ist primär für **Windows 11** optimiert, kann aber mit kleinen Anpassungen (z.B. beim Ping-Befehl) auch auf Linux/macOS ausgeführt werden.
+> **Compatibility:** The tool is primarily optimized for **Windows 11**, but can be run on Linux/macOS with minor adjustments (e.g., tweaking the system ping command).
 
 ---
 
-## ⚠️ Wichtiger Haftungsausschluss (Disclaimer)
+## ⚠️ Important Disclaimer
 
 > [!CAUTION]
-> **NUR FÜR BILDUNGSZWECKE UND AUTORISIERTE TESTS!**
-> Dieses Tool wurde entwickelt, um das Verständnis für Netzwerke und Sicherheit zu fördern. Der Entwickler (**Glitch**) übernimmt **keine Haftung** für Missbrauch, Schäden oder illegale Aktivitäten, die mit dieser Software durchgeführt werden. Das Scannen oder Angreifen von Systemen ohne ausdrückliche, schriftliche Erlaubnis ist strafbar. **Handeln Sie stets legal und ethisch!**
+> **FOR EDUCATIONAL AND AUTHORIZED TESTING PURPOSES ONLY!**
+> This tool was developed to promote the understanding of networks and security. The developer (**Glitch**) assumes **no liability** for misuse, damages, or illegal activities conducted with this software. Scanning or attacking systems without explicit, written permission is a criminal offense. **Always act legally and ethically!**
 
 ---
 
-## ✨ Funktionsumfang (Features)
+## ✨ Features
 
-### 🛜 1. Netzwerk-Tools (Network Tools)
-Werkzeuge zur Analyse von Netzwerken, Ports und Domains.
-*   **Port Scanner:** Multithreading TCP-Scan (Ports 0-1024) mit Start/Stop-Funktion.
-*   **Ping Test:** Schnelle Erreichbarkeitsprüfung von Hosts via ICMP.
-*   **DNS Lookup:** Auflösen von Domainnamen zu IPv4-Adressen.
-*   **Reverse DNS Lookup:** Ermittlung von Hostnamen und Aliase für eine gegebene IP.
-*   **WHOIS Lookup:** Abrufen von Domain-Registrierungs- und Eigentümerdaten.
-*   **Dirb Discovery:** Brute-Force-Suche nach versteckten Web-Verzeichnissen (benötigt `dirb.txt`).
+### 🛜 1. Network Tools
+Tools for analyzing networks, ports, and domains.
+*   **Port Scanner:** Multi-threaded TCP scan (Ports 0-1024) with start/stop capabilities.
+*   **Ping Test:** Quick host reachability testing via native ICMP requests.
+*   **DNS Lookup:** Resolves domain names to their corresponding IPv4 addresses.
+*   **Reverse DNS Lookup:** Identifies hostnames and aliases associated with a specific IP.
+*   **WHOIS Lookup:** Retrieves domain registration and ownership data.
+*   **Dirb Discovery:** Brute-force search for hidden web directories and files (requires `dirb.txt`).
 
-### 📍 2. IP-Tools
-Analyse und Tracking von IP-Adressen.
-*   **IP Geolocation:** Ortung des physischen Standorts, ISPs und der Zeitzone via `ip-api.com`.
-*   **Public IP Fetcher:** Zeigt sofort Ihre eigene externe, öffentliche IP-Adresse an.
+### 📍 2. IP Tools
+Analysis and tracking of IP addresses.
+*   **IP Geolocation:** Tracks the physical location, ISP, and timezone of a target IP via `ip-api.com`.
+*   **Public IP Fetcher:** Instantly displays your own external public IP address.
 
-### 🔐 3. Kryptographie-Tools (Cryptography)
-Werkzeuge für Verschlüsselung, Hashing und Passwortgenerierung.
-*   **File Encryption/Decryption:** Sichere Ver- und Entschlüsselung von Dateien mittels Fernet (symmetrische Verschlüsselung).
-*   **Text Hashing:** Generierung von Hashes (MD5, SHA-1, SHA-256, SHA-384, SHA-512) für Textstrings.
-*   **Password Generator:** Erstellt starke, zufällige 20-Zeichen-Passwörter mit Sonderzeichen.
+### 🔐 3. Cryptography Tools
+Tools for encryption, hashing, and password generation.
+*   **File Encryption/Decryption:** Securely encrypts and decrypts files using Fernet symmetric encryption.
+*   **Text Hashing:** Generates hashes (MD5, SHA-1, SHA-256, SHA-384, SHA-512) for text strings.
+*   **Password Generator:** Creates strong, randomized 20-character passwords with alphanumeric and symbolic characters.
 
-### 🌐 4. Web-Security
-Automatisierte Schwachstellensuche in Webanwendungen.
-*   **Automated Web Fuzzer:** Testet Ziel-URLs mit integrierten Payloads gegen häufige GET-Parameter auf:
+### 🌐 4. Web Security
+Automated vulnerability scanning in web applications.
+*   **Automated Web Fuzzer:** Tests target URLs against built-in payloads on common GET parameters for:
     *   Cross-Site Scripting (XSS)
     *   SQL Injection (SQLi)
     *   Local File Inclusion (LFI)
-    *   Remote Code Execution (RCE) Vektoren
+    *   Remote Code Execution (RCE) vectors
 
 ---
 
-## 🛠️ Tech-Stack & Abhängigkeiten
+## 🛠️ Tech Stack & Dependencies
 
-| Kategorie | Technologie / Bibliothek | Zweck im Projekt |
+| Category | Technology / Library | Purpose in Project |
 | :--- | :--- | :--- |
-| **Sprache** | Python 3.8+ | Kernlogik und Skripting |
-| **GUI** | `customtkinter` | Moderne, dunkle Benutzeroberfläche |
-| **Netzwerk** | `requests`, `socket` | HTTP-Requests, Port-Scans, DNS |
-| **Security** | `cryptography` | Fernet-Verschlüsselung für Dateien |
-| **Daten** | `python-whois` | WHOIS-Abfragen für Domains |
-| **System** | `subprocess`, `platform` | Ping-Tests, OS-Informationen |
+| **Language** | Python 3.8+ | Core logic and scripting |
+| **GUI** | `customtkinter` | Modern, dark-themed user interface |
+| **Networking** | `requests`, `socket` | HTTP requests, port scanning, DNS resolution |
+| **Security** | `cryptography` | Fernet encryption for file handling |
+| **Data** | `python-whois` | WHOIS queries for domain analysis |
+| **System** | `subprocess`, `platform` | Ping tests, OS information gathering |
 
 ---
 
-## 🚀 Installation & Start (Getting Started)
+## 🚀 Installation & Getting Started
 
-### 1. Voraussetzungen (Prerequisites)
-Stellen Sie sicher, dass **Python (Version 3.8 oder höher)** auf Ihrem System installiert ist und im System-Pfad (PATH) hinterlegt ist.
+### 1. Prerequisites
+Ensure that **Python (version 3.8 or higher)** is installed on your system and added to your system PATH.
 
-### 2. Repository klonen
+### 2. Clone the Repository
 ```bash
-git clone https://github.com/DEIN-USERNAME/glexgc-toolkit.git
+git clone https://github.com/YOUR-USERNAME/glexgc-toolkit.git
 cd glexgc-toolkit
