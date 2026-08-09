@@ -16,10 +16,10 @@
 
 ## 📖 About the Project
 
-**GlexGC** (also known as *Skids Toolkit*) is a comprehensive dashboard that bundles essential network, cryptography, and web security tools into a modern user interface. It was designed to make complex terminal commands visually and easily accessible for beginners (often referred to as "skids" in the scene) without requiring deep programming knowledge to operate the tools.
+**GlexGC** (also known as *Skids Toolkit*) is a comprehensive dashboard that bundles essential network, cryptography, and web security tools into a modern user interface. It was designed to make complex terminal commands visually and easily accessible for beginners (often referred to as "skids" in the scene) without requiring deep programming knowledge to operate the tools. I created it a few years ago once i started in Cybersecurity, So dont blame me if the Tool is bad.  Thanks.
 
 > [!TIP]
-> **Compatibility:** The tool is primarily optimized for **Windows 11**, but can be run on Linux/macOS with minor adjustments (e.g., tweaking the system ping command).
+> **Compatibility:** The tool is primarily optimized for **Windows 11**.
 
 ---
 
