@@ -83,5 +83,5 @@ Ensure that **Python (version 3.8 or higher)** is installed on your system and a
 
 ### 2. Clone the Repository
 ```bash
-git clone https://github.com/YOUR-USERNAME/glexgc-toolkit.git
-cd glexgc-toolkit
+git clone https://github.com/glitch-402/First-CyberSecurity-project
+cd First-CyberSecurity-project
