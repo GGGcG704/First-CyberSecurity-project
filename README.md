@@ -28,6 +28,7 @@
 > [!CAUTION]
 > **FOR EDUCATIONAL AND AUTHORIZED TESTING PURPOSES ONLY!**
 > This tool was developed to promote the understanding of networks and security. The developer (**Glitch**) assumes **no liability** for misuse, damages, or illegal activities conducted with this software. Scanning or attacking systems without explicit, written permission is a criminal offense. **Always act legally and ethically!**
+> ⚠️ Use only against systems you own or have explicit permission to test.
 
 ---
 
